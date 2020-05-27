@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.MainScreenController">
+   <content>
+      <AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="760.0">
+         <children>
+            <Pane prefHeight="100.0" prefWidth="760.0" style="-fx-background-color: #33B9F9;">
+               <children>
+                  <Label layoutX="14.0" layoutY="-2.0" prefHeight="74.0" prefWidth="101.0" text="Hi," textFill="WHITE">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name" layoutX="133.0" layoutY="2.0" prefHeight="105.0" prefWidth="406.0" text="Your Name" textFill="WHITE">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="41.0" layoutY="127.0" text="Welcome Back,">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="body" layoutX="96.0" layoutY="172.0" prefHeight="207.0" prefWidth="639.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Pane layoutY="456.0" prefHeight="50.0" prefWidth="760.0">
+               <children>
+                  <FontAwesomeIconView fill="#33b9f9" glyphName="HOME" layoutX="116.0" layoutY="34.0" size="28" />
+                  <Label layoutX="152.0" layoutY="12.0" text="Bank Of Spain Limited, Madrid" textFill="#575757">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="#33b9f9" glyphName="PHONE" layoutX="413.0" layoutY="34.0" size="25" />
+                  <Label layoutX="450.0" layoutY="12.0" text="+34 913 38 50 000 " textFill="#575757">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

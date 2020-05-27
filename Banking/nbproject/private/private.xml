@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/admin/Banking/src/forgotpass/ForgotPasswordController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/dashboard/MainScreen.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/dashboard/MainScreenController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/transferamount/TransferAmount.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/transactionhistory/History.java</file>
+            <file>file:/C:/Users/admin/Banking/src/deposit/DepositAmountController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/withdraw/WithdrawAmountController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/transactionhistory/TransactionHistoryController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/changepin/ChangePinController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/accountinfo/AccountInformationController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/login/LoginScreen.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/changepin/ChangePin.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/dashboard/DashboardController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/accountinfo/AccountInformation.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/login/LoginScreenController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/dashboard/Dashboard.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/login/Banking.java</file>
+            <file>file:/C:/Users/admin/Banking/src/deposit/DepositAmount.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/transferamount/TransferAmountController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/transactionhistory/TransactionHistory.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/design/design.css</file>
+            <file>file:/C:/Users/admin/Banking/src/createaccount/CreateAccountController.java</file>
+            <file>file:/C:/Users/admin/Banking/src/forgotpass/ForgotPassword.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/createaccount/CreateAccount.fxml</file>
+            <file>file:/C:/Users/admin/Banking/src/withdraw/WithdrawAmount.fxml</file>
+        </group>
+    </open-files>
+</project-private>

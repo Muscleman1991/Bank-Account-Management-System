@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginScreenController">
+   <children>
+      <Pane layoutX="-2.0" prefHeight="607.0" prefWidth="372.0" styleClass="login-sidebar">
+         <children>
+            <ImageView fitHeight="284.0" fitWidth="372.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/bank%20logo1.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="26.0" layoutY="304.0" prefHeight="69.0" prefWidth="320.0" text="Bank Of Spain" textFill="#942121">
+               <font>
+                  <Font name="Impact" size="56.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="395.0" text="Client Software" textFill="#942121">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="123.0" layoutY="562.0" text="All Rights Reserved" textFill="#f2eded" />
+         </children>
+         <stylesheets>
+            <URL value="@../design/design.css" />
+            <URL value="@../design/design.css" />
+         </stylesheets>
+      </Pane>
+      <Pane fx:id="main_area" layoutX="370.0" prefHeight="600.0" prefWidth="450.0" styleClass="login-main" stylesheets="@../design/design.css">
+         <children>
+            <Label layoutX="29.0" layoutY="20.0" text="Welcome">
+               <font>
+                  <Font name="Impact" size="58.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="102.0" text="login below to access your account">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="accountno" focusColor="#757575" labelFloat="true" layoutX="92.0" layoutY="170.0" minHeight="30.0" minWidth="300.0" promptText="Account No">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="pin" focusColor="#747575" labelFloat="true" layoutX="92.0" layoutY="246.0" minHeight="30.0" minWidth="300.0" promptText="PIN">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXPasswordField>
+            <Button layoutX="250.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#forgotPassword" styleClass="login-forgot" stylesheets="@../design/design.css" text="Forgot Password ?">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Button layoutX="120.0" layoutY="426.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" onMouseClicked="#loginAccount" prefWidth="205.0" styleClass="login-button" stylesheets="@../design/design.css" text="Login">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button layoutX="88.0" layoutY="524.0" minHeight="40.0" minWidth="240.0" mnemonicParsing="false" onMouseClicked="#createAccount" prefHeight="40.0" prefWidth="288.0" styleClass="login-button" stylesheets="@../design/design.css" text="   Create Account">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Label layoutX="208.0" layoutY="479.0" text="OR">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView glyphName="CLOSE" layoutX="424.0" layoutY="24.0" onMouseClicked="#closeApp" size="25" styleClass="close-button" />
+            <FontAwesomeIconView fill="#5e5e5e" glyphName="USER" layoutX="67.0" layoutY="200.0" size="20.0" />
+            <FontAwesomeIconView fill="#6b6b6b" glyphName="EYE" layoutX="65.0" layoutY="274.0" size="20" text="" />
+            <FontAwesomeIconView glyphName="USER" layoutX="176.0" layoutY="452.0" size="14.0" styleClass="login-icon" text="" />
+            <FontAwesomeIconView glyphName="PENCIL" layoutX="156.0" layoutY="548.0" size="14.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

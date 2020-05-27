@@ -1,0 +1,104 @@
+.login-sidebar{
+    -fx-background-color: #000000;
+}
+.login-main{
+    -fx-background-color: white;
+}
+
+.login-forgot{
+    -fx-background-color: white;
+    -fx-text-fill: grey;
+    -fx-cursor: hand;
+}
+
+.login-button{
+    -fx-text-fill: #444444;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-background-color: white;
+    -fx-border-color:#444444;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+}
+.login-button:hover{
+    -fx-text-fill: white;
+    -fx-background-radius: 50px;
+    -fx-background-color: #000000;
+    -fx-border-color:#000000;
+    -fx-border-style: solid;
+    -fx-cursor: hand;
+}
+
+.login-icon{
+    -fx-fill:#444444;
+    
+}
+.login-button:hover.login-icon{
+    -fx-fill:white;
+    
+}
+.close-button:hover{
+    -fx-fill: red;
+}
+
+.field-decoration{
+    -fx-border-radius: 70px;
+    -fx-background-radius:70px;
+}
+
+.dashboard-top{
+ -fx-background-color: #313954;   
+}
+
+.dashboard-sidebar{
+ -fx-background-color: #424B6C;   
+}
+
+.dashboard-profilepic{
+ -fx-background-color: #3B4463;   
+}
+
+.dashboard-menu{
+  -fx-text-fill: #D3D3D3;
+  -fx-background-color: #424B6C;
+  -fx-font-size:18px;
+  -fx-font-family:calibri;
+  -fx-text-transform:uppercase;
+  -fx-font-weight:bold;
+  -fx-alignment: CENTER_LEFT;
+}
+
+.dashboard-menu:hover{
+  -fx-text-fill: white;
+  -fx-border-color: #0D8BC5;
+  -fx-border-width: 0px 0px 0px 5px;
+  -fx-background-color: transparent;   
+  -fx-cursor:hand;
+}
+
+.dashboard-menu:pressed{
+  -fx-text-fill: #0DA9F1;
+  -fx-border-color: #0D8BC5;
+  -fx-background-color: transparent;   
+}
+
+.dashboard-menu-icons{
+    -fx-fill:#D3D3D3;
+    
+}
+
+.dashboard-menu:pressed .dashboard-menu-icons{
+    -fx-fill:#0DA9F1;
+    
+}
+
+.dashboard-btns{
+    -fx-background-color:white;
+    -fx-text-fill:#0DA9F1;
+}
+
+.dashboard-btns:hover{
+    -fx-background-color:white;
+    -fx-text-fill:#0DA9F1;
+    -fx-cursor:hand;
+}
